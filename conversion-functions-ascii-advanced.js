@@ -32,7 +32,7 @@ function decimalToAscii(blob) {
 /* Base 2 to ASCII */
 function binaryToAscii(blob) {
   // Your code here
-  let toDec=parseInt(blob.slice(2), 2)
+  let toDec = parseInt(blob.slice(2), 2)
   return String.fromCharCode(toDec)
 
 }
@@ -40,6 +40,8 @@ function binaryToAscii(blob) {
 /* Base 16 to ASCII */
 function hexadecimalToAscii(blob) {
   // Your code here
+  let toDec = parseInt(blob.slice(2), 16);
+  return String.fromCharCode(toDec);
 }
 
 /* ASCII to base 10 */
