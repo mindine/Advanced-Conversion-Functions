@@ -47,6 +47,12 @@ function hexadecimalToAscii(blob) {
 /* ASCII to base 10 */
 function asciiToDecimal(blob) {
   // Your code here
+  let arr=[]
+  for(let i=0; i<blob.length; i++){
+    let toDec=blob.charCodeAt(i)
+    arr.push(toDec)
+  }
+return arr
 }
 
 // console.log('Binary to hexadecimal:')
