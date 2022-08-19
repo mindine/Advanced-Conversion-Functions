@@ -32,6 +32,8 @@ function decimalToAscii(blob) {
 /* Base 2 to ASCII */
 function binaryToAscii(blob) {
   // Your code here
+  let toDec=parseInt(blob.slice(2), 2)
+  return String.fromCharCode(toDec)
 
 }
 
